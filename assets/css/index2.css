@@ -6408,14 +6408,12 @@ textarea {
   }
 }
 .tg-testimonial-4-content-wrap span {
-  text-transform: capitalize;
   color: #4c4c5b;
 }
 .tg-testimonial-4-content-wrap p {
   font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 23px;
   color: var(--tg-grey-1);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
