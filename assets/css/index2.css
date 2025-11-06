@@ -8535,17 +8535,20 @@ textarea {
   font-size: 16px;
 }
 .tg-tour-about-sidebar {
-  border: 1px solid #e9e9e9;
-  border-radius: 12px;
-  box-shadow: 0 0 15px 0 #efefef;
   background: var(--tg-common-white);
-  padding: 25px 30px 30px 30px;
+  padding: 0;
   margin-left: -30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tg-tour-about-sidebar {
     margin-left: 0;
   }
+}
+.tg-tour-about-sidebar img {
+  border-radius: 12px;
+  border: 1px solid #b9b9b9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px 0 #efefef;
 }
 .tg-tour-about-sidebar-title {
   font-weight: 500;
