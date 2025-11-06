@@ -7,7 +7,6 @@
 }
 .scroll-track .days .day{
    position: relative; 
-   padding-bottom: 50px;
 }
 .scroll-track .days .day>h2:after {
     
@@ -50,4 +49,12 @@
 }
 .things-to-do-carousel .tg-testimonial-4-ratings img{
  padding-right: 20px;
+}
+.day-image .image{
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 768px) {
+    .day-image{
+        flex-direction: column;
+    }
 }

@@ -7257,13 +7257,11 @@ textarea {
 }
 .tg-footer-widget p {
   line-height: 24px;
-  text-transform: capitalize;
   color: #acadb5;
   font-size: 15px;
 }
 .tg-footer-widget-title {
   font-size: 20px;
-  text-transform: capitalize;
   color: var(--tg-common-white);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7277,7 +7275,6 @@ textarea {
   }
 }
 .tg-footer-link ul li a {
-  text-transform: capitalize;
   color: #acadb5;
   display: inline-block;
   padding: 6px 0px;
@@ -7294,7 +7291,6 @@ textarea {
   }
 }
 .tg-footer-info ul li {
-  text-transform: capitalize;
   color: #acadb5;
   display: inline-block;
   font-weight: 500;
@@ -7370,7 +7366,6 @@ textarea {
 .tg-footer-copyright span {
   font-weight: 500;
   font-size: 14px;
-  text-transform: capitalize;
   color: #7b7e88;
   display: inline-block;
 }
