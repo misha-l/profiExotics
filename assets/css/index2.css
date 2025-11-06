@@ -6413,8 +6413,8 @@ textarea {
 }
 .tg-testimonial-4-content-wrap p {
   font-style: italic;
-  font-size: 18px;
-  line-height: 36px;
+  font-size: 14px;
+  line-height: 26px;
   text-transform: capitalize;
   color: var(--tg-grey-1);
 }
@@ -6428,6 +6428,7 @@ textarea {
   line-height: 136%;
   text-transform: capitalize;
   color: var(--tg-common-black-2);
+  font-family: var(--tg-ff-segoepr);
 }
 .tg-testimonial-4-ratings i {
   color: var(--tg-common-yellow);
@@ -6489,12 +6490,19 @@ textarea {
 }
 .tg-testimonial-su-wrap .tg-testimonial-4-content-wrap span {
   color: var(--tg-common-white);
+  padding: 2px 10px;
+  border-radius: 10px;
+  background: #29176f;
 }
 .tg-testimonial-su-wrap .tg-testimonial-4-ratings i {
   color: #ffb930;
 }
 .tg-testimonial-su-wrap .tg-testimonial-4-ratings i:last-child {
   color: #ded9ce;
+}
+.tg-testimonial-su-wrap .tg-testimonial-4-ratings img {
+  width: 300px;
+  margin-top: 20px;
 }
 .tg-testimonial-su-wrap .tg-testimonial-4-content-wrap p {
   color: var(--tg-common-white);

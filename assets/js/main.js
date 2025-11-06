@@ -395,6 +395,7 @@ $('.popup-video').magnificPopup({
 	=============================================*/
 	var slider = new Swiper ('.tg-testimonial-4-slide-active', {
 		slidesPerView: 1,
+        spaceBetween: 30,
 		centeredSlides: true,
 		loop: true,
 		loopedSlides: 6,
@@ -402,6 +403,10 @@ $('.popup-video').magnificPopup({
 			nextEl: '.tg-testimonial-4-slide-next',
 			prevEl: '.tg-testimonial-4-slide-prev',
 		},
+		pagination: {
+    el: '.swiper-pagination',
+    clickable: true, // allows users to click on dots
+  }
 	});
 	var thumbs = new Swiper ('.tg-testimonial-4-thumb-active', {
 		slidesPerView: 4,
@@ -594,9 +599,9 @@ var swiper = new Swiper('.tg-listing-slider', {
       // when window width is >= 992px
       992: { slidesPerView: 4 },
       // when window width is >= 768px
-      768: { slidesPerView: 2 },
+      768: { slidesPerView: 3 },
       // when window width is < 768px
-      0: { slidesPerView: 1 },
+      0: { slidesPerView: 2 },
     },
   });
 
