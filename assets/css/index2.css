@@ -7094,7 +7094,6 @@ textarea {
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
-  text-transform: capitalize;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tg-cta-title {
@@ -7182,9 +7181,6 @@ textarea {
   .tg-cta-4-content {
     margin-right: 0;
   }
-}
-.tg-cta-4-content p {
-  text-transform: capitalize;
 }
 .tg-cta-price-shape {
   position: absolute;
